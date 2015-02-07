@@ -1,0 +1,7 @@
+name: CompuBlock
+version: 1.0.0
+author: ShortCircuit908
+website: http://dev.bukkit.org/bukkit-plugins/compublock/
+main: com.shortcircuit.compublock.CompuBlock
+description: Ingame LUA interpreter
+depend: [HolographicDisplays]

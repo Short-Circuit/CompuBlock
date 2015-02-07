@@ -1,0 +1,25 @@
+DebugToConsole: false
+Blacklist:
+  Classes:
+    - "java.io.File"
+  Methods:
+    - "org.bukkit.Bukkit.shutdown"
+    - "org.bukkit.Bukkit.reload"
+    - "org.bukkit.Bukkit.banIP"
+    - "org.bukkit.Bukkit.createWorld"
+    - "org.bukkit.Bukkit.getConsoleSender"
+    - "org.bukkit.Bukkit.unloadWorld"
+    - "org.bukkit.Bukkit.unbanIP"
+    - "org.bukkit.Bukkit.getServicesManager"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.setWhitelist"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.shutdown"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.reload"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.banIP"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.createWorld"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.getConsoleSender"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.unloadWorld"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.unbanIP"
+    - "org.bukkit.craftbukkit.v1_7_R3.entity.CraftPlayer.setOp"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.getServicesManager"
+    - "org.bukkit.craftbukkit.v1_7_R3.CraftServer.setWhitelist"
+
